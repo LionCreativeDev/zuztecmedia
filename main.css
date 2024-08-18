@@ -3139,7 +3139,7 @@ article.testimonial h3 {
    top: 65%;
 }
 .home #hero .bs-220 {
-   font-size: clamp(90px, 15.27vw, 340px);
+   font-size: clamp(90px, 15.27vw, 210px);
 }
 .home #hero .bs-220 > div:first-of-type {
    display: flex;
