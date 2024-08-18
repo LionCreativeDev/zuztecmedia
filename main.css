@@ -3284,6 +3284,11 @@ article.testimonial h3 {
    .home #hero .bs-220 > div:first-of-type {
       display: block;
    }
+
+   .pin-spacer{
+      height: 2850px !important;
+   }
+
    .home #hero .bs-220 > div:first-of-type span:nth-of-type(2) {
       display: none;
    }
