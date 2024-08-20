@@ -1011,7 +1011,7 @@ body .page-to-page svg path {
 body.default a.mask-link .dot.work-dot svg path,
 body.init a.mask-link .dot.work-dot svg path,
 body.root a.mask-link .dot.work-dot svg path {
-   fill: #d62e49;
+   fill: #d66c2e;
 }
 body.default #hamburger path,
 body.init #hamburger path,
@@ -1249,7 +1249,7 @@ body.dynamic .screen {
 }
 #intake-form #submit {
    aspect-ratio: 1/1;
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border: none;
    border-radius: 50%;
    color: #eeeef2;
@@ -1475,7 +1475,7 @@ input:-webkit-autofill:hover {
    z-index: 110;
 }
 #fixed-cta i {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border-radius: 50%;
    height: 100%;
    left: 0;
@@ -1699,7 +1699,7 @@ img {
    position: relative;
 }
 .jelly-button .jb-bg {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border-radius: 50%;
    height: 100%;
    left: 0;
@@ -1720,7 +1720,7 @@ img {
    z-index: 105;
 }
 #logo svg path {
-   fill: #d62e49;
+   fill: #d66c2e;
 }
 html.no-js #smooth-wrapper {
    background-color: #1d2145;
@@ -2010,7 +2010,7 @@ html.no-js #smooth-wrapper {
    align-items: center;
    clip-path: inset(0 0 0 100%);
    -webkit-clip-path: inset(0 0 0 100%);
-   color: #d62e49;
+   color: #d66c2e;
    display: flex;
    justify-content: center;
    width: 100%;
@@ -2064,7 +2064,7 @@ a.mask-link:before {
 a.mask-link:before {
    clip-path: inset(0 0 0 100%);
    -webkit-clip-path: inset(0 0 0 100%);
-   color: #d62e49;
+   color: #d66c2e;
    content: attr(data-id);
    text-align: left;
    transition: clip-path 0.5s cubic-bezier(1, 0, 0, 1);
@@ -2131,7 +2131,7 @@ a.mask-link.hovered:before {
    position: relative;
 }
 .awards-list li a i.circle-tag:nth-of-type(2) {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    height: 5px;
    left: 0.6em;
    position: absolute;
@@ -2195,7 +2195,7 @@ a.text-link:hover:before {
    width: 100%;
 }
 .circle-link .circle-icon i {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border-radius: 50%;
    display: block;
    height: 100%;
@@ -2323,7 +2323,7 @@ h4 .dot {
    line-height: 0;
 }
 .bs-160 {
-   font-size: clamp(24px, 11.2vw, 180px);
+   font-size: clamp(100px, 7.2vw, 135px);
    line-height: 0;
 }
 .bs-180 {
@@ -2338,6 +2338,8 @@ h4 .dot {
    font-size: clamp(90px, 16.9vw, 20vw);
    line-height: 1.1;
 }
+
+
 .bs-320 {
    font-size: 25vw;
    line-height: 1;
@@ -2364,7 +2366,7 @@ h4 .dot {
    text-align: right;
 }
 .red {
-   color: #d62e49;
+   color: #d66c2e;
 }
 .blue {
    color: #1d2145;
@@ -2479,7 +2481,7 @@ ul li {
    z-index: 2;
 }
 .button span:first-of-type {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border-radius: 3em;
    display: block;
    height: 100%;
@@ -2646,7 +2648,7 @@ ul li {
    position: relative;
 }
 .tabs ul li span {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border-radius: 2em;
    display: block;
    height: 100%;
@@ -2695,7 +2697,7 @@ i.circle-tag:first-of-type {
    -ms-transform: translateY(-50%);
 }
 i.circle-tag:nth-of-type(2) {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    height: 5px;
    left: 0.6em;
    transform: translate(-50%, -50%);
@@ -2817,7 +2819,7 @@ article.testimonial h3 {
    width: 20.833vw;
 }
 .draggable .drag-progress i {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    height: 100%;
    left: 0;
    position: absolute;
@@ -2887,7 +2889,7 @@ article.testimonial h3 {
    width: 1em;
 }
 #workCursor h3 span i {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    height: 2px;
    left: 50%;
    position: absolute;
@@ -2923,7 +2925,7 @@ article.testimonial h3 {
 #split-cursor {
    align-items: center;
    backdrop-filter: blur(6px);
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border-radius: 50%;
    display: flex;
    height: 80px;
@@ -2995,7 +2997,7 @@ article.testimonial h3 {
    top: 0;
 }
 #drag-ico span {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    height: 100%;
    position: absolute;
    transform: scale(0);
@@ -3285,7 +3287,7 @@ article.testimonial h3 {
       display: block;
    }
 
-   .pin-spacer{
+   .pin-spacer {
       height: 2850px !important;
    }
 
@@ -3312,7 +3314,7 @@ article.testimonial h3 {
       display: none;
    }
    .mobile-punch {
-      color: #d62e49;
+      color: #d66c2e;
       font-size: 40vw;
    }
 }
@@ -3633,7 +3635,7 @@ article.testimonial h3 {
       z-index: 1;
    }
    #attitude .serviceLink a {
-      background-color: #d62e49;
+      background-color: #d66c2e;
       border-radius: 60px;
       display: inline-block;
       padding: 0.75em 2em;
@@ -3696,7 +3698,7 @@ article.testimonial h3 {
    width: 12.4998vw;
 }
 #clients .client-stat .stat-bg {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border-radius: 50%;
    height: 100%;
    left: 0;
@@ -4695,7 +4697,7 @@ ul.service-list li:last-of-type a {
    width: 100%;
 }
 .services .button-switch i:first-of-type {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border: none;
    z-index: 4;
 }
@@ -4728,7 +4730,7 @@ ul.service-list li:last-of-type a {
    -moz-animation: circlePulse1 1s infinite;
    -webkit-animation: circlePulse1 1s infinite;
    -o-animation: circlePulse1 1s infinite;
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border: none;
 }
 .services .button-switch:not(.hovered) i:nth-of-type(2) {
@@ -5012,7 +5014,7 @@ ul.service-list li:last-of-type a {
    font-size: 12px;
 }
 .services .goal .goal-boxes article .inner .stat div i {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border-radius: 2rem;
    display: block;
    height: 100%;
@@ -5872,8 +5874,8 @@ ul.service-list li:last-of-type a {
 #i-form .progress-bar svg:nth-of-type(2) path.last {
    fill: #1d2145;
    stroke: #eeeef2;
-   fill: #d62e49;
-   stroke: #d62e49;
+   fill: #d66c2e;
+   stroke: #d66c2e;
 }
 #i-form .choice-selected {
    align-items: flex-start;
@@ -6014,7 +6016,7 @@ ul.service-list li:last-of-type a {
    width: 100%;
 }
 #i-form .progress .progress-bar .progress-step div.active {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    height: 3px;
    left: 0;
    position: absolute;
@@ -6266,7 +6268,7 @@ ul.service-list li:last-of-type a {
    width: 14.5831vw;
 }
 .contact .cta-circle .jelly-button i {
-   background-color: #d62e49;
+   background-color: #d66c2e;
    border-radius: 50%;
    display: block;
    height: 100%;
@@ -6464,7 +6466,7 @@ ul.service-list li:last-of-type a {
       font-size: 12px;
    }
    .services .goal .goal-boxes article .inner .stat div i {
-      background-color: #d62e49;
+      background-color: #d66c2e;
       border-radius: 2rem;
       display: block;
       height: 100%;
@@ -6838,7 +6840,7 @@ ul.service-list li:last-of-type a {
       -ms-transform: translateY(-100%);
    }
    .button {
-      background-color: #d62e49;
+      background-color: #d66c2e;
       border-radius: 3em;
       line-height: 1;
       padding: 1.25em 2.5em;
@@ -6856,7 +6858,7 @@ ul.service-list li:last-of-type a {
       z-index: 2;
    }
    .button span:first-of-type {
-      background-color: #d62e49;
+      background-color: #d66c2e;
       border-radius: 3em;
       display: block;
       height: 100%;
@@ -7041,7 +7043,7 @@ ul.service-list li:last-of-type a {
       width: 66.6656vw;
    }
    .draggable .drag-progress i {
-      background-color: #d62e49;
+      background-color: #d66c2e;
       height: 100%;
       left: 0;
       position: absolute;
