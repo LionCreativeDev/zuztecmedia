@@ -3204,78 +3204,186 @@
                 }
                 ))
             }
+            // if (document.querySelector("#intake-form")) {
+            //     let e = gsap.timeline({
+            //         paused: !0
+            //     });
+            //     document.querySelector("#resetForm").addEventListener("click", (function () {
+            //         e.reverse()
+            //     }
+            //     )),
+            //         gsap.set("#success-message", {
+            //             y: -100
+            //         }),
+            //         e.to("#i-form", {
+            //             opacity: 0,
+            //             y: 100,
+            //             pointerEvents: "none",
+            //             duration: 1,
+            //             ease: "expo.inOut"
+            //         }),
+            //         e.to("#success-message", {
+            //             opacity: 1,
+            //             y: 0,
+            //             pointerEvents: "auto",
+            //             duration: 1,
+            //             ease: "expo.inOut"
+            //         }, "-=.95");
+            //     const t = document.getElementById("intake-form")
+            //         , o = document.getElementById("submit");
+            //     o.addEventListener("click", (function (a) {
+            //         if (a.preventDefault(),
+            //             t.checkValidity()) {
+            //             o.disabled = !0,
+            //                 o.style.backgroundColor = "#D62E49",
+            //                 o.value = "Sending...";
+            //             var n = {
+            //                 request: "message"
+            //             };
+            //             n.fname = document.querySelector("#fname").value,
+            //                 n.lname = document.querySelector("#lname").value,
+            //                 n.phone = document.querySelector("#phone").value,
+            //                 n.email = document.querySelector("#email").value,
+            //                 n.company = document.querySelector("#company").value,
+            //                 n.deadline = document.querySelector("#deadline").value,
+            //                 n.details = document.querySelector("#form-details").value;
+            //             for (let e = 1; e <= 3; e++) {
+            //                 var s = document.querySelector('span[data-flip-id="auto-' + e + '"]');
+            //                 n["span" + e] = s.textContent
+            //             }
+            //             console.log("a"),
+            //                 window.fetch("/submission", {
+            //                     method: "post",
+            //                     body: JSON.stringify(n),
+            //                     headers: {
+            //                         Accept: "application/json",
+            //                         "Content-Type": "application/json; charset=UTF-8"
+            //                     }
+            //                 }).then((e => e.text())).then((a => {
+            //                     console.log(a),
+            //                         o.style.backgroundColor = "#D62E49",
+            //                         o.value = "Submit",
+            //                         o.disabled = !1,
+            //                         e.play(),
+            //                         t.reset()
+            //                 }
+            //                 )).catch((e => {
+            //                     console.error("Error:", e)
+            //                 }
+            //                 ))
+            //         } else
+            //             t.reportValidity()
+            //     }
+            //     ))
+            // }
             if (document.querySelector("#intake-form")) {
-                let e = gsap.timeline({
-                    paused: !0
+                let e = gsap.timeline({ paused: true });
+
+                document.querySelector("#resetForm").addEventListener("click", () => {
+                    e.reverse();
                 });
-                document.querySelector("#resetForm").addEventListener("click", (function () {
-                    e.reverse()
-                }
-                )),
-                    gsap.set("#success-message", {
-                        y: -100
-                    }),
-                    e.to("#i-form", {
-                        opacity: 0,
-                        y: 100,
-                        pointerEvents: "none",
-                        duration: 1,
-                        ease: "expo.inOut"
-                    }),
-                    e.to("#success-message", {
-                        opacity: 1,
-                        y: 0,
-                        pointerEvents: "auto",
-                        duration: 1,
-                        ease: "expo.inOut"
-                    }, "-=.95");
-                const t = document.getElementById("intake-form")
-                    , o = document.getElementById("submit");
-                o.addEventListener("click", (function (a) {
-                    if (a.preventDefault(),
-                        t.checkValidity()) {
-                        o.disabled = !0,
-                            o.style.backgroundColor = "#D62E49",
-                            o.value = "Sending...";
-                        var n = {
-                            request: "message"
+
+                gsap.set("#success-message", { y: -100 });
+
+                e.to("#i-form", {
+                    opacity: 0,
+                    y: 100,
+                    pointerEvents: "none",
+                    duration: 1,
+                    ease: "expo.inOut"
+                }).to("#success-message", {
+                    opacity: 1,
+                    y: 0,
+                    pointerEvents: "auto",
+                    duration: 1,
+                    ease: "expo.inOut"
+                }, "-=.95");
+
+                const t = document.getElementById("intake-form");
+                const o = document.getElementById("submit");
+                // Variables to store user selections
+                let projectType = '';
+                let budgetRange = '';
+                let sourceOfReferral = '';
+
+                // Step 1: Handle project type selection
+                document.querySelectorAll('[data-step-target="3"]').forEach(button => {
+                    button.addEventListener('click', () => {
+                        projectType = button.getAttribute('name');
+                    });
+                });
+
+                // Step 2: Handle budget range selection
+                document.querySelectorAll('[data-step-target="4"]').forEach(button => {
+                    button.addEventListener('click', () => {
+                        budgetRange = button.getAttribute('name');
+                    });
+                });
+
+                // Step 3: Handle source of referral selection
+                document.querySelectorAll('[data-step-target="5"]').forEach(button => {
+                    button.addEventListener('click', () => {
+                        sourceOfReferral = button.getAttribute('name');
+                    });
+                });
+
+                o.addEventListener("click", (a) => {
+                    a.preventDefault();
+
+                    if (t.checkValidity()) {
+                        o.disabled = true;
+                        o.style.backgroundColor = "#D62E49";
+                        o.value = "Sending...";
+
+                        let n = {
+                            request: "message",
+                            firstName: document.querySelector("#fname").value,
+                            lastName: document.querySelector("#lname").value,
+                            phone: document.querySelector("#phone").value,
+                            email: document.querySelector("#email").value,
+                            company: document.querySelector("#company").value,
+                            deadline: document.querySelector("#deadline").value,
+                            details: document.querySelector("#form-details").value,
+                            projectType: projectType,
+                            budgetRange: budgetRange,
+                            sourceOfReferral: sourceOfReferral
                         };
-                        n.fname = document.querySelector("#fname").value,
-                            n.lname = document.querySelector("#lname").value,
-                            n.phone = document.querySelector("#phone").value,
-                            n.email = document.querySelector("#email").value,
-                            n.company = document.querySelector("#company").value,
-                            n.deadline = document.querySelector("#deadline").value,
-                            n.details = document.querySelector("#form-details").value;
+
                         for (let e = 1; e <= 3; e++) {
-                            var s = document.querySelector('span[data-flip-id="auto-' + e + '"]');
-                            n["span" + e] = s.textContent
+                            let s = document.querySelector('span[data-flip-id="auto-' + e + '"]');
+                            n["span" + e] = s.textContent;
                         }
-                        console.log("a"),
-                            window.fetch("/submission", {
-                                method: "post",
-                                body: JSON.stringify(n),
-                                headers: {
-                                    Accept: "application/json",
-                                    "Content-Type": "application/json; charset=UTF-8"
-                                }
-                            }).then((e => e.text())).then((a => {
-                                console.log(a),
-                                    o.style.backgroundColor = "#D62E49",
-                                    o.value = "Submit",
-                                    o.disabled = !1,
-                                    e.play(),
-                                    t.reset()
+
+                        console.log("Sending data to server...");
+
+                        window.fetch("http://localhost:3000/send-email", { // Update the URL here
+                            method: "POST",
+                            body: JSON.stringify(n),
+                            headers: {
+                                Accept: "application/json",
+                                "Content-Type": "application/json; charset=UTF-8"
                             }
-                            )).catch((e => {
-                                console.error("Error:", e)
-                            }
-                            ))
-                    } else
-                        t.reportValidity()
-                }
-                ))
+                        }).then(response => response.text())
+                            .then(result => {
+                                console.log(result);
+                                o.style.backgroundColor = "#D62E49";
+                                o.value = "Submit";
+                                o.disabled = false;
+                                e.play();
+                                t.reset();
+                            })
+                            .catch(error => {
+                                console.error("Error:", error);
+                                o.style.backgroundColor = "#D62E49";
+                                o.value = "Submit";
+                                o.disabled = false;
+                            });
+                    } else {
+                        t.reportValidity();
+                    }
+                });
             }
+
         }
     };
     const I = function () {
