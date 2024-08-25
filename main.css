@@ -1730,7 +1730,7 @@ img {
    z-index: 105;
 }
 #logo img {
-   width: 10em;
+   width: 8em;
    height: auto;
    max-width: 10em;
 }
@@ -3905,7 +3905,7 @@ article.testimonial h3 {
 }
 .award-icons img {
    display: inline-block;
-   height: 30px;
+   height: 60px;
    width: auto;
 }
 .award-icons span {
@@ -3922,10 +3922,10 @@ article.testimonial h3 {
    text-align: center;
 }
 .award-icons > div:nth-of-type(2) img {
-   height: 34px;
+   height: 60px;
 }
 .award-icons > div:nth-of-type(3) img {
-   height: 24px;
+   height: 60px;
 }
 .about .award-icons {
    margin-top: 1em;

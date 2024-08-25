@@ -16,7 +16,7 @@
                 currentIndex = (currentIndex + 1) % urls.length;
                 console.log(getCurrentUrl()); // Print current URL to console for real-time view
                 // Dispatch a custom event with the new URL
-            const event = new CustomEvent('urlChange', { detail: { url: newUrl } });
+            const event = new CustomEvent('urlChange', { detail: { url: getCurrentUrl() } });
             window.dispatchEvent(event);
             }, interval);
         }
