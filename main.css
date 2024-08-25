@@ -1343,6 +1343,8 @@ input:-webkit-autofill:hover {
 #loading-overlay {
    align-items: center;
    background-color: #1d2145;
+   background-image: url(img/bg.jpg);
+   background-size: contain !important;
    display: block;
    display: flex;
    height: 100vh;
@@ -1353,6 +1355,14 @@ input:-webkit-autofill:hover {
    top: 0;
    width: 100%;
    z-index: 999;
+}
+
+#loading-overlay img {
+   height: auto;
+   width: 200px;
+   left: 45%;
+   top: 40%;
+   position: absolute;
 }
 #loading-overlay div {
    flex: 0 0 24.9996vw;
@@ -1651,7 +1661,7 @@ img {
    background-color: #1d2145;
 }
 #breadcrumb {
-   left: 12.4998vw;
+   left: 17.4998vw;
    position: absolute;
    top: calc(4.1666vw - 10px);
    z-index: 10;
@@ -1713,11 +1723,16 @@ img {
 }
 #logo {
    height: 4.1666vw;
-   left: 4.1666vw;
+   left: 3.1666vw;
    position: fixed;
    top: 4.1666vw;
    width: 4.1666vw;
    z-index: 105;
+}
+#logo img {
+   width: 10em;
+   height: auto;
+   max-width: 10em;
 }
 #logo svg path {
    fill: #d66c2e;
@@ -2338,7 +2353,6 @@ h4 .dot {
    font-size: clamp(90px, 16.9vw, 20vw);
    line-height: 1.1;
 }
-
 
 .bs-320 {
    font-size: 25vw;
