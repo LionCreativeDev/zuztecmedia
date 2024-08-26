@@ -1357,12 +1357,62 @@ input:-webkit-autofill:hover {
    z-index: 999;
 }
 
+.award-icons img {
+   display: inline-block;
+   height: 100px !important;
+   width: auto;
+}
+
 #loading-overlay img {
    height: auto;
    width: 200px;
    left: 45%;
-   top: 40%;
+   top: 45%;
    position: absolute;
+   transform: translate(-50%, -50%) rotate(0deg); /* Center and initial rotation */
+   animation: rotate 2s linear infinite; /* 2s duration, linear timing, infinite loop */
+}
+
+@media screen and (max-width: 768px) {
+   #loading-overlay img {
+      height: auto;
+      width: 200px;
+      left: 17%;
+      top: 42%;
+      position: absolute;
+      transform: translate(-50%, -50%) rotate(0deg); /* Center and initial rotation */
+      animation: rotate 2s linear infinite; /* 2s duration, linear timing, infinite loop */
+   }
+
+   #attitude h2 {
+      color: #fff;
+   }
+
+   .award-icons img {
+      display: inline-block;
+      height: 40px !important;
+      width: auto;
+   }
+}
+
+/* Define the keyframe animation for blinking */
+@keyframes blink {
+   0%,
+   100% {
+      opacity: 1; /* Fully visible at the start and end of the animation */
+   }
+   50% {
+      opacity: 0; /* Fully invisible halfway through the animation */
+   }
+}
+/* Define the keyframe animation for rotation */
+@keyframes rotate {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
 }
 #loading-overlay div {
    flex: 0 0 24.9996vw;
