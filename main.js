@@ -45,7 +45,7 @@
     // To stop rotating URLs
     // urlRotator.stopRotation();
 
-    const e = window.ASSETS.concat([`${urlRotator.getCurrentUrl()}`])
+    const e = window.ASSETS.concat([`img/work/brand north.jpg`])
         , t = window.document.querySelector("#webglBubble");
     if (MainThreeScene.init(t),
         MainThreeScene.initTextures(e),
