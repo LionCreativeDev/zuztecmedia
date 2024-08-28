@@ -3402,7 +3402,7 @@
 
                         console.log("Sending data to server...");
 
-                        window.fetch("http://localhost:3000/send-email", { // Update the URL here
+                        window.fetch("https://email-server.zuztechs.com/send-email", { // Update the URL here
                             method: "POST",
                             body: JSON.stringify(n),
                             headers: {
