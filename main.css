@@ -1377,7 +1377,7 @@ input:-webkit-autofill:hover {
    #loading-overlay img {
       height: auto;
       width: 200px;
-      left: 17%;
+      left: 20%;
       top: 42%;
       position: absolute;
       transform: translate(-50%, -50%) rotate(0deg); /* Center and initial rotation */
