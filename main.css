@@ -6637,6 +6637,12 @@ ul.service-list li:last-of-type a {
    }
 }
 @media only screen and (max-width: 767px) {
+   .about-award-text {
+      display: none;
+   }
+   .about-award-website-text {
+      width: 50.3328vw !important;
+   }
    #newsletter .arrow-link i {
       flex: 0 0 80%;
    }
@@ -7412,7 +7418,7 @@ ul.service-list li:last-of-type a {
       display: none;
    }
    .work #work-titles {
-      font-size: 11vw;
+      font-size: 10vw;
       position: absolute;
       top: 65%;
       transform: translateY(-50%);
@@ -7429,6 +7435,9 @@ ul.service-list li:last-of-type a {
       margin: 0;
       padding: 0;
       width: 100%;
+   }
+   .work #work-titles {
+      height: 3em;
    }
    .work #work-titles a {
       padding-right: 0;
