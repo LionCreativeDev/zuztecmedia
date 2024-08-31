@@ -1366,8 +1366,6 @@ input:-webkit-autofill:hover {
 #loading-overlay img {
    height: auto;
    width: 200px;
-   left: 45%;
-   top: 45%;
    position: absolute;
    transform: translate(-50%, -50%) rotate(0deg); /* Center and initial rotation */
    animation: rotate 2s linear infinite; /* 2s duration, linear timing, infinite loop */
@@ -1377,10 +1375,8 @@ input:-webkit-autofill:hover {
    #loading-overlay img {
       height: auto;
       width: 200px;
-      left: 20%;
-      top: 42%;
       position: absolute;
-      transform: translate(-50%, -50%) rotate(0deg); /* Center and initial rotation */
+      transform: translate(-50%, -50%);
       animation: rotate 2s linear infinite; /* 2s duration, linear timing, infinite loop */
    }
 
@@ -1416,6 +1412,9 @@ input:-webkit-autofill:hover {
 }
 #loading-overlay div {
    flex: 0 0 24.9996vw;
+}
+#loading-overlay div {
+   flex: 0 0 12.9996vw;
 }
 #loading-overlay svg {
    height: auto;
@@ -1468,7 +1467,7 @@ input:-webkit-autofill:hover {
       display: none;
    }
    #loading-overlay div {
-      flex: 0 0 74.9988vw;
+      flex: 0 0 71.9988vw;
    }
    #loading-overlay div svg {
       transform: scale(0.9) translateY(-20%);
@@ -3351,6 +3350,14 @@ article.testimonial h3 {
       display: block;
    }
 
+   .home #hero h1 div {
+      font-size: 74px !important;
+   }
+
+   .home #hero > div {
+      padding-bottom: 45.833vw !important;
+   }
+
    .pin-spacer {
       height: 2850px !important;
    }
@@ -3361,6 +3368,14 @@ article.testimonial h3 {
    .home #hero .bs-220 > div:nth-of-type(2) {
       display: flex;
       justify-content: space-between;
+   }
+   .home #hero .bs-220 > div:nth-of-type(2) {
+      display: block !important;
+      justify-content: space-between;
+   }
+   .home #hero .bs-220 > div:nth-of-type(2) span {
+      display: flex;
+      justify-content: center;
    }
    .home #hero .hero-copy {
       display: none;
@@ -6733,6 +6748,9 @@ ul.service-list li:last-of-type a {
    .content {
       margin-left: 0;
    }
+
+   #hero h1 span {
+   }
    .content {
       position: relative;
       width: 100% !important;
@@ -6794,6 +6812,7 @@ ul.service-list li:last-of-type a {
       font-family: Suisse Intl Bold, Open Sans, Helvetica, sans-serif;
       margin-bottom: 1em;
       padding: 0.5em 1em 0.35em;
+      margin-top: 80px;
    }
    #usp > span:nth-of-type(2) {
       display: none;
