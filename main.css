@@ -7751,7 +7751,14 @@ ul.service-list li:last-of-type a {
       filter: brightness(0.8);
    }
    #i-form .choice-selected {
-      top: 23.1666vw;
+      margin: 65px 0 0 0;
+      width: 100.6656vw;
+   }
+   .contact-title-text{
+      font-size: calc(25px + 2.8vw);
+   }
+   .contact-form-margin{
+      margin-top: 40px;
    }
    .services .fp-item:nth-of-type(6) {
       margin-top: 20px;
