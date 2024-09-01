@@ -3350,7 +3350,7 @@ article.testimonial h3 {
       display: block;
    }
 
-   .services-creating-margin-top{
+   .services-creating-margin-top {
       margin-top: 15vh;
    }
 
@@ -7745,7 +7745,7 @@ ul.service-list li:last-of-type a {
       -ms-transform: translateY(20vh);
    }
 
-   .team-img-width{
+   .team-img-width {
       width: 100%;
       height: auto;
       filter: brightness(0.8);
@@ -7755,8 +7755,95 @@ ul.service-list li:last-of-type a {
    }
 }
 
-.team-img-width{
+.team-img-width {
    width: 80%;
    height: auto;
    filter: brightness(0.8);
+}
+
+.award-icons > div {
+   position: relative; /* Positioning context for the pseudo-element */
+   overflow: hidden; /* Ensure the pseudo-element does not overflow */
+   transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.award-icons > div::before {
+   content: ''; /* Required to display the pseudo-element */
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #d66c2e;
+   border-radius: 100%;
+   transform: scale3d(0.3, 0.3, 0.3); /* Initial scale */
+   opacity: 0; /* Initial opacity */
+   transition: opacity 0.3s ease; /* Smooth transition for opacity */
+   z-index: -1; /* Make sure the pseudo-element appears above other content */
+   pointer-events: none; /* Prevent interaction with the pseudo-element */
+}
+
+/* Trigger zoomIn animation on hover */
+.award-icons > div:hover::before {
+   animation: zoomIn 1s both;
+}
+
+/* Trigger zoomOut animation when not hovered */
+.award-icons > div:not(:hover)::before {
+   animation: zoomOut 1s both;
+}
+
+@keyframes zoomIn {
+   0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+   }
+   100% {
+      opacity: 1;
+      transform: scale3d(1, 1, 1); /* Final scale for a smooth zoom-in effect */
+   }
+}
+
+@keyframes zoomOut {
+   0% {
+      opacity: 1;
+      transform: scale3d(1, 1, 1); /* Initial scale for zoom-out effect */
+   }
+   100% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3); /* Final scale for zoom-out effect */
+   }
+}
+.about #hero h1 {
+   margin-bottom: 10.1666vw;
+}
+.about #hero h1 div {
+   line-height: 0.8;
+   font-size: 100px;
+}
+.timeline-num-size {
+   font-size: 25vmin !important;
+}
+.timeline-card-text-size {
+   font-size: calc(25px + 1.4vw);
+}
+.timeline-text-p-size{
+   margin-top: 25px !important;
+}
+@media only screen and (min-width: 1880px) {
+   .about #hero h1 div {
+      font-size: 130px;
+   }
+}
+@media only screen and (max-width: 1440px) {
+   .work #work-titles ul li h2 {
+      font-size: 50px;
+   }
+   .about #hero h1 {
+      margin-bottom: 10.8334vw;
+   }
+   .about #hero h1 div {
+      line-height: 0.8;
+      font-size: 90px;
+   }
 }
