@@ -3350,6 +3350,10 @@ article.testimonial h3 {
       display: block;
    }
 
+   .services-creating-margin-top{
+      margin-top: 15vh;
+   }
+
    .home #hero h1 div {
       font-size: 74px !important;
    }
@@ -7740,4 +7744,19 @@ ul.service-list li:last-of-type a {
       -o-transform: translateY(20vh);
       -ms-transform: translateY(20vh);
    }
+
+   .team-img-width{
+      width: 100%;
+      height: auto;
+      filter: brightness(0.8);
+   }
+   #i-form .choice-selected {
+      top: 23.1666vw;
+   }
+}
+
+.team-img-width{
+   width: 80%;
+   height: auto;
+   filter: brightness(0.8);
 }
