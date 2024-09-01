@@ -7753,6 +7753,47 @@ ul.service-list li:last-of-type a {
    #i-form .choice-selected {
       top: 23.1666vw;
    }
+   .services .fp-item:nth-of-type(6) {
+      margin-top: 20px;
+   }
+   .about .pin-spacer, .home .pin-spacer {
+      margin-bottom: 0px !important;
+   }
+   .services .goal {
+      margin-top: 0px !important;
+   }
+   .services-creating-margin-top {
+      margin-top: 0px !important;
+   }
+   .split.chars > div {
+      font-size: 50px !important;
+   }
+   .about .pin-spacer {
+      height: 2690px !important;
+   }
+   .about #hero h1 div {
+      font-size: 35px !important;
+  }
+  .timeline .timeline-left .timeline-num {
+   flex: 0 0 34.9992vw !important;
+}
+.timeline .timeline-side .num-item {
+   font-size: 20vmin;
+   margin-left: 35.9992vw;
+}
+.about-award-margin-top{
+   margin-top: 20vh !important;
+}
+
+#footer .bs-xl-4.bs-xs-14 {
+   margin-left: 0vw !important;
+}
+#footer .bs-xl-9.right.bs-xs-12 {
+   text-align: left !important;
+}
+.about-recent-work-margin{
+   margin-top: 10vh;
+}
 }
 
 .team-img-width {
@@ -7827,7 +7868,7 @@ ul.service-list li:last-of-type a {
 .timeline-card-text-size {
    font-size: calc(25px + 1.4vw);
 }
-.timeline-text-p-size{
+.timeline-text-p-size {
    margin-top: 25px !important;
 }
 @media only screen and (min-width: 1880px) {
