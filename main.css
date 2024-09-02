@@ -3823,6 +3823,77 @@ article.testimonial h3 {
    -ms-transition-delay: 0.4s;
    transition-delay: 0.4s;
 }
+.slider-bg {
+   background-color: #fff;
+}
+
+.slider h1 {
+   text-align: center;
+   font-family: 'Tourney', sans-serif;
+   font-size: 50px;
+   font-weight: 500;
+   margin: 80px 0 10px 0;
+   color: #df146f;
+}
+
+@keyframes slide {
+   from {
+      transform: translateX(0);
+   }
+   to {
+      transform: translateX(-100%);
+   }
+}
+
+.logos {
+   overflow: hidden;
+   width: 100%;
+   padding: 60px 0;
+   background: rgba(255, 255, 255, 0);
+   white-space: nowrap;
+   position: relative;
+}
+
+.logos-before,
+.logos-after {
+   position: absolute;
+   top: 0;
+   width: 250px;
+   height: 100%;
+   content: '';
+   z-index: 2;
+}
+
+.logos-before {
+   left: 0;
+   background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffffff);
+}
+
+.logos-after {
+   right: 0;
+   background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
+}
+
+.logos:hover .logos-slide {
+   animation-play-state: paused;
+}
+
+.logos-slide {
+   display: inline-block;
+   animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+   height: 30px;
+   margin: 0 40px;
+}
+
+.slider-logo-img {
+   height: 50px !important;
+}
+.bg-white{
+   background-color: #fff !important;
+}
 #clients .client-stat .stat-icon img.invisible {
    opacity: 0;
    -webkit-transition-delay: 0s;
@@ -3883,6 +3954,16 @@ article.testimonial h3 {
    -webkit-transform: rotate(45deg);
    -o-transform: rotate(45deg);
    -ms-transform: rotate(45deg);
+}
+#clients .client-stat .stat-data i.checked {
+   background: url(img/checked.png);
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   display: inline-block;
+   height: 30px;
+   width: 30px;
+   filter: invert(1);
 }
 #awards {
    height: 100vh;
@@ -7895,4 +7976,12 @@ ul.service-list li:last-of-type a {
       line-height: 0.8;
       font-size: 90px;
    }
+}
+
+.it-call-hitrate-title-size{
+   font-size: 7.333vw;
+}
+
+#testimonials .solutions-testimonial-image-before p:before {
+   content: none !important;
 }
