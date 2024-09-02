@@ -1988,7 +1988,7 @@
                                     gsap.to(a, {
                                         rotation: -90,
                                         scale: .4,
-                                        y: o,
+                                        y: 250,
                                         transformOrigin: "0 0",
                                         duration: .5,
                                         ease: "expo"

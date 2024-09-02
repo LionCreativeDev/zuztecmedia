@@ -3891,7 +3891,7 @@ article.testimonial h3 {
 .slider-logo-img {
    height: 50px !important;
 }
-.bg-white {
+.bg-white{
    background-color: #fff !important;
 }
 #clients .client-stat .stat-icon img.invisible {
@@ -7835,10 +7835,10 @@ ul.service-list li:last-of-type a {
       margin: 65px 0 0 0;
       width: 100.6656vw;
    }
-   .contact-title-text {
+   .contact-title-text{
       font-size: calc(25px + 2.8vw);
    }
-   .contact-form-margin {
+   .contact-form-margin{
       margin-top: 40px;
    }
    .services .fp-item:nth-of-type(6) {
@@ -7882,6 +7882,12 @@ ul.service-list li:last-of-type a {
    }
    .about-recent-work-margin {
       margin-top: 10vh;
+   }
+   .aspect-ratio-side-scroll{
+      aspect-ratio: unset;
+   }
+   .justify-customer-center{
+      justify-content: center !important;
    }
 }
 
@@ -7977,42 +7983,3 @@ ul.service-list li:last-of-type a {
       font-size: 90px;
    }
 }
-
-.satisfied-clients-title-size {
-   font-size: 4.333vw;
-}
-
-#testimonials .solutions-testimonial-image-before p:before {
-   content: none !important;
-}
-
-.attitude-solutions-title-width {
-   min-height: 20vh !important;
-   max-height: 657px;
-   height: 657px;
-}
-
-.attitude-title-text-it-flex-start{
-   align-self: flex-start !important;
-}
-
-.client-left-display-flex{
-   display: block !important;
-}
-
-.height-goal-boxes{
-   height: 35vh !important;
-}
-
-/* translate: none;
-    rotate: none;
-    scale: none;
-    inset: 0px auto auto 0px;
-    margin: 0px;
-    max-width: 1920px;
-    width: 1920px;
-    max-height: 957px;
-    height: 657px;
-    padding: 0px;
-    transform: translate(0px, 0px);
-} */
