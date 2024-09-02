@@ -5154,6 +5154,8 @@ ul.service-list li:last-of-type a {
    padding: 30px;
    position: relative;
 }
+
+
 .services .goal .goal-boxes article .inner div {
    align-self: flex-end;
    flex: 0 0 100%;
@@ -7583,6 +7585,9 @@ ul.service-list li:last-of-type a {
       -ms-transform: translateX(0);
       width: 100%;
    }
+   .article-height-300px{
+      height: 180px !important;
+   }
    .work .work-slider .work-service div {
       width: 100%;
    }
@@ -7999,4 +8004,18 @@ ul.service-list li:last-of-type a {
 
 .client-left-display-flex{
    display: unset !important;
+}
+
+.article-height-300px{
+   height: 280px !important;
+}
+@media only screen and (max-width: 1440px) {
+
+   .article-height-300px{
+      height: 200px !important;
+   }
+}
+
+.para-width-100{
+   width: 100% !important;
 }
