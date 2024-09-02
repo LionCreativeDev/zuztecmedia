@@ -7889,6 +7889,9 @@ ul.service-list li:last-of-type a {
    .justify-customer-center{
       justify-content: center !important;
    }
+   .mobile-size-call-center{
+      margin: 5vh 0 5vh !important;
+   }
 }
 
 .team-img-width {
@@ -7982,4 +7985,8 @@ ul.service-list li:last-of-type a {
       line-height: 0.8;
       font-size: 90px;
    }
+}
+
+.satisfied-clients-title-size{
+   font-size: 4.333vw;
 }
