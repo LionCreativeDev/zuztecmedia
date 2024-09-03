@@ -7849,8 +7849,7 @@ ul.service-list li:last-of-type a {
    .services .fp-item:nth-of-type(6) {
       margin-top: 20px;
    }
-   .about .pin-spacer,
-   .home .pin-spacer {
+   .about .pin-spacer {
       margin-bottom: 0px !important;
    }
    .services .goal {
@@ -7861,9 +7860,6 @@ ul.service-list li:last-of-type a {
    }
    .split.chars > div {
       font-size: 50px !important;
-   }
-   .about .pin-spacer {
-      height: 2690px !important;
    }
    .about #hero h1 div {
       font-size: 35px !important;
