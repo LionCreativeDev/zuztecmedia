@@ -8019,3 +8019,31 @@ ul.service-list li:last-of-type a {
 .para-width-100{
    width: 100% !important;
 }
+
+@media only screen and (min-width: 1280px) {
+
+   .article-height-300px{
+      height: 250px !important;
+   }
+
+   .height-80-service-desx{
+      height: 80% !important;
+   }
+   
+   .margin-top-solutions-text-p{
+      margin-top: 20px !important;
+   }
+   
+   .padding-top-service-desc-57{
+      padding-top: 57px !important;
+   }
+
+   /* Styles when body has the specific class */
+   .url-specific .pin-spacer {
+     height: 2269px !important;
+  }
+}
+
+.headphone-img-width{
+   width: 45%;
+}
