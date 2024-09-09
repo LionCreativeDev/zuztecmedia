@@ -1,49 +1,5 @@
 (() => {
-    const imageUrls = [
-        "img/work/brand north.jpg",
-        "img/work/Iris Healing.jpg",
-        "img/work/maazproperies.jpg",
-        "img/work/moderncitizen.jpg",
-        "img/work/ylangylang.jpg"
-    ];
 
-    // function createUrlRotator(urls, interval = 2000) {
-    //     let currentIndex = 0;
-    //     let intervalId;
-
-    //     function startRotation() {
-    //         intervalId = setInterval(() => {
-    //             currentIndex = (currentIndex + 1) % urls.length;
-    //             console.log(getCurrentUrl()); // Print current URL to console for real-time view
-    //             // Dispatch a custom event with the new URL
-    //             const event = new CustomEvent('urlChange', { detail: { url: getCurrentUrl() } });
-    //             window.dispatchEvent(event);
-    //         }, interval);
-    //     }
-
-    //     function getCurrentUrl() {
-    //         return urls[currentIndex];
-    //     }
-
-    //     function stopRotation() {
-    //         clearInterval(intervalId);
-    //     }
-
-    //     // Start rotating URLs
-    //     startRotation();
-
-    //     // Return an object with functions to get the current URL and to stop the rotation
-    //     return {
-    //         getCurrentUrl,
-    //         stopRotation
-    //     };
-    // }
-
-    // Usage
-    // const urlRotator = createUrlRotator(imageUrls);
-
-    // To stop rotating URLs
-    // urlRotator.stopRotation();
 
     const e = window.ASSETS.concat([`img/work/brand north.jpg`])
         , t = window.document.querySelector("#webglBubble");
