@@ -22,7 +22,7 @@
       <meta property="og:image:height" content="672" />
       <link rel="icon" type="image/png" href="../img/logo.png" />
       <link rel="canonical" href="" />
-      <title>Bee Health- Zuztech Case Study</title>
+      <title>Online Reputation Management - Zuztech</title>
       <link
          rel="preload"
          href="../dist/css/normalize.css"
@@ -37,15 +37,10 @@
          onload="this.onload=null;this.rel='stylesheet'"
       />
       <link rel="stylesheet" href="../main.css" />
-      <style type="text/css">
-         body,
-         #hero {
-            min-height: 100vh;
-         }
-      </style>
-      <!--<style><div id="loading-overlay">{ position: fixed; opacity: 0; top: 0; left: 0; width: 100%; height: 100%; background-color: #121212; z-index: 9999; pointer-events: none; transition: opacity 600ms cubic-bezier(0.190, 1.000, 0.220, 1.000); }</div><div class="loading">#loading-overlay { opacity: 1; pointer-events: auto; }</div></style>-->
+      <!--<style type="text/css">
+         body, #hero { min-height: 100vh; }<div id="loading-overlay">{ position: fixed; opacity: 0; top: 0; left: 0; width: 100%; height: 100%; background-color: #1D2145; z-index: 9999; pointer-events: none; transition: opacity 600ms cubic-bezier(0.190, 1.000, 0.220, 1.000); }</div><div class="loading">#loading-overlay { opacity: 1; pointer-events: auto; }</div>
+      </style>-->
    </head>
-
    <body class="loading">
       <section id="webglBubble"></section>
       <div id="hamburger">
@@ -195,7 +190,7 @@
             </nav>
             <div class="social bs-12">
                <a
-                  href="https://www.linkedin.com/company/zuztec/"
+                  href="https://www.linkedin.com/company/buzzworthyAbout/"
                   target="_blank"
                   class="text-link"
                   aria-label="Linkedin"
@@ -203,7 +198,7 @@
                   Linkedin
                </a>
                <a
-                  href="https://www.instagram.com/zuztecmedia"
+                  href="https://www.instagram.com/buzzworthy.About/"
                   target="_blank"
                   class="text-link"
                   aria-label="Instagram"
@@ -211,7 +206,7 @@
                   Instagram
                </a>
                <a
-                  href="https://x.com/zuztec"
+                  href="https://twitter.com/getbuzzworthy"
                   target="_blank"
                   class="text-link"
                   aria-label="Twitter"
@@ -219,12 +214,20 @@
                   Twitter
                </a>
                <a
-                  href="https://www.facebook.com/zuztec/"
+                  href="https://www.behance.net/BuzzworthyAbout"
                   target="_blank"
                   class="text-link"
                   aria-label="Behance"
                >
-                  Facebook
+                  Behance
+               </a>
+               <a
+                  href="https://dribbble.com/Buzzworthy/"
+                  target="_blank"
+                  class="text-link"
+                  aria-label="Dribbble"
+               >
+                  Dribbble
                </a>
             </div>
          </div>
@@ -261,6 +264,7 @@
             href="https://zuztecmedia.com/contact.html"
             id="fixed-cta"
             title="Contact us"
+            class="nav-link"
          >
             <i></i>
             <span>
@@ -333,35 +337,32 @@
                />
             </svg>
          </a>
-         <div id="split-cursor">
-            <span>
-               <i></i>
-               <i></i>
-            </span>
+         <!-- PATTERN BG -->
+         <div class="scrollPattern">
+            <div class="patternTop">
+               <img
+                  class="lazy"
+                  src="../img/pattern-top-prel.png"
+                  data-src="../img/pattern-top.webp"
+                  data-src-big="../img/pattern-top.webp"
+                  alt="Hexagon line pattern png image"
+               />
+            </div>
+            <div class="patternBottom">
+               <img
+                  class="lazy"
+                  src="../img/pattern-bottom-prel.png"
+                  data-src="../img/pattern-bottom.webp"
+                  data-src-big="../img/pattern-bottom.webp"
+                  alt="Hexagon line pattern png image"
+               />
+            </div>
+         </div>
+         <div id="drag-ico">
+            <span></span>
          </div>
          <!-- SMOOTH SCROLLING CONTENT -->
-         <div
-            class="content work-detail webglActive"
-            data-work="dynamic"
-            data-work-index="1"
-            data-work-reflection="#FFFFFF"
-         >
-            <style type="text/css">
-               :root {
-                  --colorA: #2c2b2b;
-                  --colorA-RGB: 44, 43, 43;
-                  --colorB: #ffffff;
-                  --colorB-RGB: 255, 255, 255;
-                  --colorC: #f93434;
-                  --colorC-RGB: 249, 52, 52;
-                  --colorD: #ffffff;
-                  --colorD-RGB: 255, 255, 255;
-               }
-
-               #breadcrumb span::before {
-                  opacity: 1;
-               }
-            </style>
+         <div class="content service-detail" data-work="root">
             <div id="breadcrumb">
                <span class="bs-tech hero-in">
                   <a href="https://zuztecmedia.com" class="text-link">
@@ -369,185 +370,449 @@
                   </a>
                </span>
                <span class="bs-tech hero-in">
-                  <a href="https://zuztecmedia.com/branding.html" class="text-link">
-                     branding
+                  <a
+                     href="https://zuztecmedia.com/services.html"
+                     class="text-link"
+                  >
+                     Services
                   </a>
                </span>
-               <span class="bs-tech active hero-in">bee health</span>
+               <span class="bs-tech active hero-in">
+                  Online Reputation Management
+               </span>
             </div>
             <!-- HERO SECTION -->
             <section id="hero" class="grid-inner">
-               <h1 class="bs-240 upper center hero-split chars">bee health</h1>
-               <span class="date bs-14 bs-tech upper hero-in">April 2024</span>
-               <span
-                  class="scroll-to bs-14 bs-tech upper hero-in"
-                  data-scroll="workIntro"
+               <svg
+                  class="hero-hex"
+                  viewBox="0 0 256 218"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
                >
-                  scroll for details
-               </span>
-            </section>
-            <!-- LISTING -->
-            <section class="work-content grid-inner xl-top-1">
-               <div class="line-anim">
-                  <svg width="11" height="9" xmlns="http://www.w3.org/2000/svg">
-                     <path
-                        d="m10.407 4.5-2.555 4H3.148l-2.555-4 2.555-4h4.704l2.555 4Z"
-                        fill="#1D2145"
-                        stroke="#EEEEF2"
-                        fill-rule="evenodd"
-                     />
-                  </svg>
-                  <div></div>
-                  <svg width="11" height="9" xmlns="http://www.w3.org/2000/svg">
-                     <path
-                        d="m10.407 4.5-2.555 4H3.148l-2.555-4 2.555-4h4.704l2.555 4Z"
-                        fill="#1D2145"
-                        stroke="#EEEEF2"
-                        fill-rule="evenodd"
-                     />
-                  </svg>
-               </div>
-            </section>
-            <!-- GALLERY -->
-            <!-- BIG PAGE SHOWCASE  -->
-            <section class="big-page-wrap grid-inner img-view">
-               <div
-                  class="work-copy-box bs-xl-9 bs-xl-os-4 bs-xs-20 bs-xs-os-0 xl-top-4 xs-top-3"
-               >
-                  <h2 class="bs-80 upper split chars">
-                     Sleek, Striking and Sophisticated
-                  </h2>
-                  <div class="bs-grid xl-top-1 sm-wrap">
-                     <div class="bs-xl-3 bs-sm-9 bs-xs-8">
+                  <g
+                     transform="translate(-1529.000000, -989.000000)"
+                     fill="none"
+                     stroke-width="1"
+                     stroke="#EEEEF2"
+                  >
+                     <g transform="translate(1529.555556, 989.920435)">
+                        <polyline
+                           vector-effect="non-scaling-stroke"
+                           points="0 0 0 34.9162585 31.8888889 54.0252776 63.7777778 34.9162585 95.7777778 54.0252776 95.7777778 88.9162585 127.5 108.5 159.555556 88.9162585"
+                        ></polyline>
+                        <polyline
+                           vector-effect="non-scaling-stroke"
+                           points="95.7777778 88.9162585 63.7777778 108.025278 63.7777778 142.941536 32 162.025278"
+                        ></polyline>
+                        <polyline
+                           vector-effect="non-scaling-stroke"
+                           points="63.8888889 142.945268 95.7777778 162.025278 127.5 142.945268 160 162.025278 159.555556 196.970546 127.666667 216.079565"
+                        ></polyline>
+                        <polyline
+                           vector-effect="non-scaling-stroke"
+                           points="160 162.025278 191.444444 142.941536 223.555556 162.054287 254.777778 142.945268"
+                        ></polyline>
+                     </g>
+                  </g>
+               </svg>
+               <div>
+                  <h1>
+                     <div class="hero-split chars bs-180 upper red">
+                        Online Reputation
+                     </div>
+                     <div class="hero-split chars bs-180 upper">Management</div>
+                  </h1>
+                  <div class="bs-grid xs-wrap service-hero">
+                     <div
+                        style="width: auto !important"
+                        class="bs-xl-5 bs-xs-22"
+                     >
                         <h2 class="section-title">
                            <i class="circle-tag"></i>
                            <i class="circle-tag"></i>
-                           Visual Design
+                           The Service
                         </h2>
                      </div>
                      <div
-                        class="box-copy bs-xl-6 bs-sm-9 bs-xs-12 sm-top-1 xs-top-0"
+                        style="width: auto !important"
+                        class="bs-xl-12 bs-xl-os-1 bs-xs-22 bs-xs-os-0 xs-top-1 bs-grid xs-wrap"
                      >
-                        <p class="bs-14 split lines">
-                           O-Positive videos stop you in your tracks. To mirror
-                           this style, we've ensured their website demands that
-                           same attention. Featuring a cinematic dark backdrop,
-                           bold and imposing fonts, and a vibrant secondary
-                           orange font that leaps off the screen, our native
-                           design is a true reflection of their purely original
-                           work.
+                        <p
+                           style="width: 100% !important"
+                           class="bs-xl-5 bs-xl-os-2 bs-xs-22 bs-xs-os-0 xs-top-1 hero-in-text"
+                        >
+                           In a bustling metropolis like New York, the
+                           significance of Online Reputation Management (ORM)
+                           cannot be overstated. With a multitude of businesses
+                           and a diverse, discerning consumer base, maintaining
+                           a positive online reputation is paramount. Online
+                           reputation management in New York, USA is crucial for
+                           businesses to effectively navigate and shape public
+                           perceptions, manage reviews and feedback, and
+                           mitigate the impact of potentially damaging content.
+                           Given the competitive nature of the New York market,
+                           effective Online reputation management strategies can
+                           help businesses instil trust, credibility, and
+                           reliability, ultimately influencing consumer
+                           decisions and fostering long-term customer
+                           relationships. Additionally, in a city where
+                           word-of-mouth and online reviews hold substantial
+                           weight, proactive Online reputation management
+                           efforts can safeguard brand equity, attract new
+                           customers, and solidify a favourable reputation
+                           amidst the fast-paced, digitally driven environment
+                           of New York.
                         </p>
                      </div>
                   </div>
                </div>
-               <div class="big-page xl-top-3 xs-top-1">
-                  <figure class="bs-img">
-                     <img
-                        class="lazy"
-                        src="../img/work/bee-merged.jpg"
-                        data-src=""
-                        alt=""
-                     />
-                  </figure>
+               <div class="scroll-to" data-scroll="service-desc">
+                  <div class="bs-tech">
+                     (&nbsp;&nbsp;&nbsp;SCROLL&nbsp;&nbsp;&nbsp;)
+                  </div>
                </div>
             </section>
-            <!-- BGIMG TOP OFFSET SCREEN IMAGE -->
-
-            <!-- MOOD GALLERY SECTION -->
-            <!-- SPLIT SCREENS RIGHT -->
-            <!-- <section class="split-screens bs-grid xl-top-4 xs-top-3 xs-wrap">
-            <div class="bs-xl-11 split-item split-left bs-xs-20 bs-xs-os-2" data-target="split-01"
-               data-scroll="split-01">
-               <figure class="bs-img page img-view">
-                  <img class="lazy" src="../img/work/brandnorth-aboutus.png" data-src-mobile="" alt="" />
-               </figure>
-            </div>
-            <div class="bs-xl-11 bs-xl-os-2 bs-xs-20 split-item split-right xs-top-2" data-target="split-02"
-               data-scroll="split-02">
-               <figure class="bs-img page img-view">
-                  <img class="lazy" src="../img/work/brandnorth-seo.png" data-src=""
-                  alt="" />
-               </figure>
-            </div>
-         </section> -->
-            <!-- BGIMG DOUBLE OFFSET SCREEN IMAGE -->
-            <!-- RESULTS -->
-            <!-- RECENT WORK -->
-            <section
-               class="xl-top-3 xs-top-3 work-listing next-project"
-               id="work"
-            >
+            <!-- Service Description -->
+            <section class="xl-top-4 xs-top-3">
                <div class="grid-inner">
-                  <div class="line-anim">
-                     <svg
-                        width="11"
-                        height="9"
-                        xmlns="http://www.w3.org/2000/svg"
-                     >
-                        <path
-                           d="m10.407 4.5-2.555 4H3.148l-2.555-4 2.555-4h4.704l2.555 4Z"
-                           fill="#1D2145"
-                           stroke="#EEEEF2"
-                           fill-rule="evenodd"
-                        />
-                     </svg>
-                     <div></div>
-                     <svg
-                        width="11"
-                        height="9"
-                        xmlns="http://www.w3.org/2000/svg"
-                     >
-                        <path
-                           d="m10.407 4.5-2.555 4H3.148l-2.555-4 2.555-4h4.704l2.555 4Z"
-                           fill="#1D2145"
-                           stroke="#EEEEF2"
-                           fill-rule="evenodd"
-                        />
-                     </svg>
+                  <div>
+                     <h3 class="service-online-title upper split chars bs-xs-8">
+                        Why Choose us for your Online Reputation Management in
+                        New York?
+                        <i class="dot view"></i>
+                     </h3>
                   </div>
-
-                  <div class="bs-grid xs-wrap xl-top-3 xs-top-3">
-                     <div class="bs-xl-7 bs-xs-22">
+               </div>
+            </section>
+            <section
+               id="service-desc"
+               class="side-scroll-wrap xl-top-1 service-desc grid-inner xs-top-3"
+            >
+               <div class="side-scroll xl-top-2">
+                  <article class="side-scroll-item">
+                     <div class="inner">
                         <h2 class="section-title">
                            <i class="circle-tag"></i>
                            <i class="circle-tag"></i>
-                           NEXT PROJECT
+                           01
                         </h2>
-                        <h3 class="bs-120 upper xl-top-1 xs-top-0">
-                           <a
-                              href="dmotel.html"
-                              class="text-link split chars"
-                           >
-                              D Motel
-                           </a>
+                        <h3 class="bs-60 upper">Proactive Approach</h3>
+                        <p>
+                           We believe in being ahead of the curve. Our proactive
+                           approach to reputation management ensures potential
+                           issues are identified and addressed before they
+                           escalate.
+                        </p>
+                     </div>
+                  </article>
+                  <article class="side-scroll-item">
+                     <div class="inner">
+                        <h2 class="section-title">
+                           <i class="circle-tag"></i>
+                           <i class="circle-tag"></i>
+                           02
+                        </h2>
+                        <h3 class="bs-60 upper">Tailored Solutions</h3>
+                        <p>
+                           Every brand is unique. NAKS Digital Consulting ORM
+                           strategies in New York are customized to align with
+                           your brand identity, values, and specific challenges.
+                        </p>
+                     </div>
+                  </article>
+                  <article class="side-scroll-item">
+                     <div class="inner">
+                        <h2 class="section-title">
+                           <i class="circle-tag"></i>
+                           <i class="circle-tag"></i>
+                           03
+                        </h2>
+                        <h3 class="bs-60 upper">Experienced Team</h3>
+                        <p>
+                           Our team brings a wealth of experience in online
+                           reputation management. We’ve successfully navigated
+                           diverse industries, helping clients build and
+                           maintain a strong digital reputation in New York,
+                           USA.
+                        </p>
+                     </div>
+                  </article>
+               </div>
+            </section>
+            <!-- About Intro -->
+
+            <section id="about-intro" class="about-intro xl-top-2 xs-top-1">
+               <div class="bs-grid bs-xl-20 bs-xl-os-1 xs-full xs-wrap">
+                  <div
+                     class="bs-xl-11 bs-xs-22 bs-xs-os-1 display-justify-online-repu"
+                  >
+                     <figure class="parallax-wrap online-repu-image-div">
+                        <img
+                           class="lazy online-repu-image-translate"
+                           style="transform: translate(0px, 0px) !important"
+                           src="https://naksconsulting.com/wp-content/uploads/2024/01/Designer-2-4.png"
+                           data-src="https://naksconsulting.com/wp-content/uploads/2024/01/Designer-2-4.png"
+                           data-src-big="https://naksconsulting.com/wp-content/uploads/2024/01/Designer-2-4.png"
+                           alt="Hexagon background 3d"
+                        />
+                     </figure>
+                  </div>
+                  <div class="bs-xl-8 bs-xl-os-1 bs-xs-22 xs-top-1">
+                     <h2 class="section-title">
+                        <i class="circle-tag"></i>
+                        <i class="circle-tag"></i>
+                        CREATIVE About
+                     </h2>
+                     <div class="xl-top-1 xs-top-1">
+                        <p class="bs-30 upper split lines">
+                           Safeguard Image with Online Reputation Management in
+                           New York.
+                        </p>
+                        <p
+                           class="xl-top-1 bs-xl-5 bs-xs-14"
+                           style="width: 100%"
+                        >
+                           Welcome to NAKS Digital Consulting, your trusted
+                           Online Reputation Management company in New York,
+                           USA. We specialize in safeguarding and enhancing your
+                           digital reputation, ensuring a positive online
+                           presence. Our comprehensive solutions go beyond
+                           reputation protection; they fortify your brand image
+                           and expertly manage online perception. Discover the
+                           power of strategic online reputation management
+                           tailored for success in the vibrant digital landscape
+                           of New York, NY. Partner with us to build and
+                           maintain a resilient and favorable online identity
+                           for your business.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- CLIENTS SECTION -->
+            <section id="clients">
+               <header
+                  class="grid-inner bs-grid xs-top-2 xl-top-4 xs-wrap xs-reverse"
+               >
+                  <div class="bs-xl-6 bs-sm-8 bs-xs-22 clients-left">
+                     <div>
+                        <h2 class="section-title">
+                           <i class="circle-tag"></i>
+                           <i class="circle-tag"></i>
+                           True partnership
+                        </h2>
+                     </div>
+                     <p class="sm-top-1 split lines mt-1">
+                        Online Reputation Management is the practice of
+                        monitoring, influencing, and managing the perception of
+                        an individual or brand across digital platforms. In an
+                        era where online presence is critical, ORM is the key to
+                        maintaining a positive image, mitigating risks, and
+                        building trust with your audience. Partner with a
+                        leading online reputation management company in New
+                        York, USA to ensure expert guidance in navigating the
+                        digital landscape and fostering a favorable online
+                        identity for sustained success.
+                     </p>
+                  </div>
+                  <div
+                     class="bs-xl-8 bs-xl-os-3 bs-sm-os-2 bs-xs-22 bs-xs-os-0"
+                  >
+                     <h3 class="bs-120 upper split chars font-size-100px">
+                        What is Online Reputation Management?
+                        <i class="dot view"></i>
+                     </h3>
+                  </div>
+               </header>
+            </section>
+            <!-- PROJECT LIFECYCLE -->
+            <div class="services">
+               <section class="lifecycle grid-inner xl-top-5 xs-top-2">
+                  <div class="bs-grid xs-wrap">
+                     <div class="bs-xl-7 bs-sm-4 bs-xs-22">
+                        <h2 class="section-title">
+                           <i class="circle-tag"></i>
+                           <i class="circle-tag"></i>
+                           Workflow
+                        </h2>
+                     </div>
+                     <div class="bs-xl-9 bs-xs-22 xs-top-1">
+                        <h3 class="bs-120 upper split chars font-size-4vw">
+                           Our Online Reputation Management Services in New York
+                           <i class="dot view"></i>
                         </h3>
                      </div>
-                     <article class="bs-xl-9 bs-xl-os-2 bs-xs-22 bs-xs-os-0">
-                        <a href="dmotel.html">
-                           <figure class="nextP">
-                              <i class="work-lottie">
-                                 <svg
-                                    viewBox="0 0 660 660"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                 >
-                                    <mask id="imgMask1">
-                                       <path
-                                          d="M0 0.5C0 0.223858 0.223858 0 0.5 0H659.5C659.776 0 660 0.223858 660 0.5V0.5C660 0.776142 659.829 1 659.553 1C653.058 1 577.308 1 528 1C476.451 1 447.549 1 396 1C344.451 1 315.549 1 264 1C212.451 1 183.549 1 132 1C82.6923 1 6.94176 1 0.447341 1C0.171199 1 0 0.776142 0 0.5V0.5Z"
-                                          fill="black"
-                                       />
-                                    </mask>
-                                    <image
-                                       width="100%"
-                                       height="100%"
-                                       mask="url(#imgMask1)"
-                                       href="../img/Portfolio-Page-img/DMotel-min.jpg"
-                                    />
-                                 </svg>
-                              </i>
-                           </figure>
-                        </a>
+                  </div>
+                  <div class="flying-panes xl-top-2 xs-top-1 bs-xs-22">
+                     <article class="fp-item active">
+                        <div class="inner">
+                           <div>
+                              <p class="section-title bs-tech upper white">
+                                 <i class="circle-tag"></i>
+                                 <i class="circle-tag"></i>
+                                 01
+                              </p>
+                           </div>
+                           <div class="self-end">
+                              <h3 class="bs-80 upper">
+                                 Reputation
+                                 <br />
+                                 Monitoring
+                              </h3>
+                              <p>
+                                 Constant vigilance is the first line of
+                                 defense. NAKS Digital Consulting New York,
+                                 monitor online mentions, reviews, and social
+                                 media conversations to stay ahead of any
+                                 potential reputation issues. 
+                              </p>
+                           </div>
+                        </div>
                      </article>
+                     <article class="fp-item stack">
+                        <div class="inner">
+                           <div>
+                              <p class="section-title bs-tech upper white">
+                                 <i class="circle-tag"></i>
+                                 <i class="circle-tag"></i>
+                                 02
+                              </p>
+                           </div>
+                           <div class="self-end">
+                              <h3 class="bs-80 upper">
+                                 Strategic Brand
+                                 <br />
+                                 Enhancement
+                              </h3>
+                              <p>
+                                 Craft a positive narrative around your brand.
+                                 NAKS team develops and implements strategies to
+                                 highlight your strengths, achievements, and
+                                 positive customer experiences in New York,
+                                 USA. 
+                              </p>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="fp-item stack">
+                        <div class="inner">
+                           <div>
+                              <p class="section-title bs-tech upper white">
+                                 <i class="circle-tag"></i>
+                                 <i class="circle-tag"></i>
+                                 03
+                              </p>
+                           </div>
+                           <div class="self-end">
+                              <h3 class="bs-80 upper">
+                                 Review
+                                 <br />
+                                 Management
+                              </h3>
+                              <p>
+                                 Effectively manage online reviews to shape a
+                                 positive perception. We engage with reviews,
+                                 address concerns, and encourage satisfied
+                                 customers to share their experiences. 
+                              </p>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="fp-item stack">
+                        <div class="inner">
+                           <div>
+                              <p class="section-title bs-tech upper white">
+                                 <i class="circle-tag"></i>
+                                 <i class="circle-tag"></i>
+                                 04
+                              </p>
+                           </div>
+                           <div class="self-end">
+                              <h3 class="bs-80 upper">
+                                 Social Media
+                                 <br />
+                                 Management
+                              </h3>
+                              <p>
+                                 Your social media presence is a significant
+                                 aspect of your reputation. We optimize and
+                                 manage your social media profiles to showcase
+                                 your brand in the best light in New York, USA.
+                              </p>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="fp-item stack">
+                        <div class="inner">
+                           <div>
+                              <p class="section-title bs-tech upper white">
+                                 <i class="circle-tag"></i>
+                                 <i class="circle-tag"></i>
+                                 05
+                              </p>
+                           </div>
+                           <div class="self-end">
+                              <h3 class="bs-80 upper">
+                                 Crisis
+                                 <br />
+                                 response
+                              </h3>
+                              <p>
+                                 In the face of a reputation crisis, we act
+                                 swiftly and strategically to minimize damage.
+                                 Our crisis response team in New York is ready
+                                 to address issues head-on and guide your brand
+                                 back to a positive trajectory.
+                              </p>
+                           </div>
+                        </div>
+                     </article>
+                  </div>
+               </section>
+            </div>
+            <!-- Get Started Today -->
+            <section class="xl-top-4 xs-top-5 margin-top-mobile-get">
+               <div class="grid-inner">
+                  <div>
+                     <h3 class="get-started-title upper split chars bs-xs-14">
+                        Get Started Today
+                        <i class="dot view"></i>
+                     </h3>
+                  </div>
+                  <div class="xl-top-1">
+                     <p class="get-started-p bs-xl-10 bs-xs-14">
+                        Ready to take control of your online narrative? Contact
+                        us to schedule a consultation. Let’s discuss your goals,
+                        concerns, and how our online reputation management
+                        services in New York can safeguard your brand’s digital
+                        image.
+                     </p>
+                  </div>
+                  <div>
+                     <div
+                        class="view xl-top-1 xl-bottom-2 xs-top-2"
+                        style="
+                           opacity: 1;
+                           translate: none;
+                           rotate: none;
+                           scale: none;
+                           transform: translate(0px, 0px);
+                        "
+                     >
+                        <a
+                           href="https://zuztecmedia.com/work.html"
+                           class="arrow-link al-hover bs-tech"
+                        >
+                           <i>
+                              <img
+                                 src="img/svg/arrow-link.svg"
+                                 alt="line arrow icon"
+                              />
+                           </i>
+                           View all work
+                        </a>
+                     </div>
                   </div>
                </div>
             </section>
@@ -920,7 +1185,7 @@
                               <ul class="bs-14">
                                  <li>
                                     <a
-                                       href="https://www.linkedin.com/company/zuztec/"
+                                       href="https://www.linkedin.com/company/zuztec/about/?viewAsMember=true"
                                        target="_blank"
                                        class="text-link"
                                        aria-label="Linkedin"
@@ -930,7 +1195,7 @@
                                  </li>
                                  <li>
                                     <a
-                                       href="https://www.instagram.com/zuztecmedia"
+                                       href="https://www.instagram.com/zuztecmedia?igsh=ZDJmc3c5MHY2Nmts"
                                        target="_blank"
                                        class="text-link"
                                        aria-label="Instagram"
@@ -940,7 +1205,7 @@
                                  </li>
                                  <li>
                                     <a
-                                       href="https://x.com/zuztec"
+                                       href="https://x.com/zuztec?t=emudQjVyTHTyLBBKSE9feQ&s=08"
                                        target="_blank"
                                        class="text-link"
                                        aria-label="Twitter"
@@ -950,12 +1215,12 @@
                                  </li>
                                  <li>
                                     <a
-                                       href="https://www.facebook.com/zuztec/"
+                                       href="https://www.facebook.com/profile.php?id=61564431915400&mibextid=ZbWKwL"
                                        target="_blank"
                                        class="text-link"
-                                       aria-label="Behance"
+                                       aria-label="Dribbble"
                                     >
-                                       Facebook
+                                       facebook
                                     </a>
                                  </li>
                               </ul>
@@ -968,27 +1233,42 @@
          </div>
       </main>
       <!-- scripts -->
-     <script>
-      window.ASSETS = [
-         '../img/Portfolio-Page-img/IrisHealing-min.jpg',
-         '../img/Portfolio-Page-img/beehealth-min.jpg',
-         '../img/Portfolio-Page-img/DMotel-min.jpg',
-      ]
-   </script>
-   <script>
-      window.SLIDETITLE = [
-         "<a href='branding/dmotel.html' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='img/svg/arrow-hex.svg'><\/span><\/div>D Motel<\/a>",
-         "<a href='branding/irisHealing.html' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='img/svg/arrow-hex.svg'><\/span><\/div>Iris Healing<\/a>",
-         "<a href='branding/beehealth.html' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='img/svg/arrow-hex.svg'><\/span><\/div>Bee Health<\/a>",
-       ]
-   </script>
-   <script>
-      window.SLIDESERVICE = [
-         '<li>D Motel</li><li>Iris Healing</li><li>Bee Health</li>',
-         '<li>Iris Healing</li><li>Bee Health</li><li>D Motel</li>',
-         '<li>Bee Health</li><li>D Motel</li><li>Iris Healing</li>',
-       ]
-   </script>
+      <script>
+         window.ASSETS = [
+            '../img/Portfolio-Page-img/AI-Influencer.png',
+            '../img/Portfolio-Page-img/Nexo.png',
+            '../img/Portfolio-Page-img/Xsport.png',
+            '../img/Portfolio-Page-img/sarbett.png',
+            '../img/Portfolio-Page-img/Yoh-Sweet.png',
+            '../img/Portfolio-Page-img/SEO-Landing.png',
+         ]
+      </script>
+      <script>
+         window.SLIDETITLE = [
+            "<a href='../work/sling-shot' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='../img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='../img/svg/arrow-hex.svg'><\/span><\/div>Sling Shot<\/a>",
+            "<a href='../work/opositive' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='../img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='../img/svg/arrow-hex.svg'><\/span><\/div>O Positive<\/a>",
+            "<a href='../work/valaclava' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='../img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='../img/svg/arrow-hex.svg'><\/span><\/div>Valaclava<\/a>",
+            "<a href='../work/hoboken-yogi' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='../img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='../img/svg/arrow-hex.svg'><\/span><\/div>Hoboken Yogi<\/a>",
+            "<a href='../work/ocean-agency' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='../img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='../img/svg/arrow-hex.svg'><\/span><\/div>Ocean Agency<\/a>",
+            "<a href='../work/beemok' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='../img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='../img/svg/arrow-hex.svg'><\/span><\/div>The BHC<\/a>",
+            "<a href='../work/hudson-properties' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='../img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='../img/svg/arrow-hex.svg'><\/span><\/div>Hudson Prop.<\/a>",
+            "<a href='../work/helias' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='../img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='../img/svg/arrow-hex.svg'><\/span><\/div>Helias Oils<\/a>",
+            "<a href='../work/modern-md' class='circle-link'><div class='circle-icon'><i><\/i><span><img src='../img/svg/arrow-hex.svg' alt='arrow icon with hexagon tip'><img src='../img/svg/arrow-hex.svg'><\/span><\/div>Modern MD<\/a>",
+         ]
+      </script>
+      <script>
+         window.SLIDESERVICE = [
+            '<li>Brand Consulting<\/li><li>Animations<\/li><li>Creative Development<\/li><li>SEO<\/li>',
+            '<li>Brand Consulting<\/li><li>Animations<\/li><li>Creative Development<\/li><li>SEO<\/li>',
+            '<li>Brand Consulting<\/li><li>Development<\/li><li>Shopify<\/li><li>SEO<\/li>',
+            '<li>Brand Consulting<\/li><li>Animations<\/li><li>Creative Development<\/li><li>SEO<\/li>',
+            '<li>Brand Consulting<\/li><li>Animations<\/li><li>Creative Development<\/li><li>Marketing<\/li>',
+            '<li>Brand Consulting<\/li><li>Development<\/li><li>SEO<\/li>',
+            '<li>Brand Consulting<\/li><li>Animations<\/li>',
+            '<li>Brand Consulting<\/li><li>Animations<\/li><li>Creative Development<\/li><li>Shopify<\/li>',
+            '<li>Brand Consulting<\/li><li>Development<\/li><li>Marketing<\/li><li>SEO<\/li>',
+         ]
+      </script>
       <script src="../dist/js/app.min.min.js"></script>
       <script
          src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.147.0/three.min.js"
@@ -1004,5 +1284,6 @@
       <script src="../dist/js/honey-ball-src/honey-ball.js"></script>
       <script src="../dist/js/honey-ball-src/main-three-scene.js"></script>
       <script src="../main.js"></script>
+      <!-- scripts -->
    </body>
 </html>

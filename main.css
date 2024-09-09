@@ -3891,7 +3891,7 @@ article.testimonial h3 {
 .slider-logo-img {
    height: 50px !important;
 }
-.bg-white{
+.bg-white {
    background-color: #fff !important;
 }
 #clients .client-stat .stat-icon img.invisible {
@@ -5154,7 +5154,6 @@ ul.service-list li:last-of-type a {
    padding: 30px;
    position: relative;
 }
-
 
 .services .goal .goal-boxes article .inner div {
    align-self: flex-end;
@@ -7585,7 +7584,7 @@ ul.service-list li:last-of-type a {
       -ms-transform: translateX(0);
       width: 100%;
    }
-   .article-height-300px{
+   .article-height-300px {
       height: 180px !important;
    }
    .work .work-slider .work-service div {
@@ -7840,10 +7839,10 @@ ul.service-list li:last-of-type a {
       margin: 65px 0 0 0;
       width: 100.6656vw;
    }
-   .contact-title-text{
+   .contact-title-text {
       font-size: calc(25px + 2.8vw);
    }
-   .contact-form-margin{
+   .contact-form-margin {
       margin-top: 40px;
    }
    .services .fp-item:nth-of-type(6) {
@@ -7874,9 +7873,9 @@ ul.service-list li:last-of-type a {
    .about-award-margin-top {
       margin-top: 20vh !important;
    }
-.margin-top-screen-mobile-retail{
-   margin-top: 20px !important;
-}
+   .margin-top-screen-mobile-retail {
+      margin-top: 20px !important;
+   }
    #footer .bs-xl-4.bs-xs-14 {
       margin-left: 0vw !important;
    }
@@ -7886,13 +7885,13 @@ ul.service-list li:last-of-type a {
    .about-recent-work-margin {
       margin-top: 10vh;
    }
-   .aspect-ratio-side-scroll{
+   .aspect-ratio-side-scroll {
       aspect-ratio: unset;
    }
-   .justify-customer-center{
+   .justify-customer-center {
       justify-content: center !important;
    }
-   .mobile-size-call-center{
+   .mobile-size-call-center {
       margin: 5vh 0 5vh !important;
    }
 }
@@ -7990,56 +7989,123 @@ ul.service-list li:last-of-type a {
    }
 }
 
-.satisfied-clients-title-size{
+.satisfied-clients-title-size {
    font-size: 4.333vw;
 }
 
-.attitude-title-text-it-flex-start{
+.attitude-title-text-it-flex-start {
    align-self: flex-start;
 }
 
-.client-left-display-flex{
+.client-left-display-flex {
    display: unset !important;
 }
 
-.article-height-300px{
+.article-height-300px {
    height: 280px !important;
 }
 @media only screen and (max-width: 1440px) {
-
-   .article-height-300px{
+   .article-height-300px {
       height: 200px !important;
    }
 }
 
-.para-width-100{
+.para-width-100 {
    width: 100% !important;
 }
 
 @media only screen and (min-width: 1280px) {
-
-   .article-height-300px{
+   .article-height-300px {
       height: 250px !important;
    }
 
-   .height-80-service-desx{
+   .height-80-service-desx {
       height: 80% !important;
    }
-   
-   .margin-top-solutions-text-p{
+
+   .margin-top-solutions-text-p {
       margin-top: 20px !important;
    }
-   
-   .padding-top-service-desc-57{
+
+   .padding-top-service-desc-57 {
       padding-top: 57px !important;
    }
 
    /* Styles when body has the specific class */
    .url-specific .pin-spacer {
-     height: 2269px !important;
-  }
+      height: 2269px !important;
+   }
 }
 
-.headphone-img-width{
+.headphone-img-width {
    width: 45%;
+}
+
+.online-repu-image-translate {
+   transform: translate(0px, 0px) !important;
+   height: auto !important;
+}
+
+.online-repu-image-div {
+   height: 50vh;
+   width: 80% !important;
+}
+
+.display-justify-online-repu {
+   display: flex;
+   justify-content: end;
+}
+
+.font-size-100px {
+   font-size: 100px;
+}
+
+.mt-1 {
+   margin-top: 20px;
+}
+
+.get-started-title {
+   font-size: 8.333vw;
+   line-height: 0;
+}
+
+.get-started-p {
+   font-size: 1.4vw;
+}
+
+.font-size-4vw {
+   font-size: 4.333vw;
+}
+
+.service-online-title {
+   font-size: 4.333vw;
+   line-height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+   .margin-top-mobile-get{
+      margin-top: 50vh !important;
+   }
+
+   .get-started-p {
+      font-size: 4.4vw;
+  }
+
+  .service-online-title{
+   width: 100%;
+  }
+
+  .display-justify-online-repu {
+   display: flex;
+   justify-content: center;
+}
+
+.online-repu-image-div {
+   height: 100%;
+   width: 80% !important;
+}
+
+.font-size-100px{
+   line-height: 0;
+}
 }
