@@ -6248,10 +6248,10 @@ ul.service-list li:last-of-type a {
    color: #eeeef2;
    cursor: pointer;
    font-family: TT Lakes Neue, Impact, sans-serif;
-   font-size: 14px;
+   font-size: 18px;
    font-weight: 400;
-   line-height: 80px;
-   margin: 2em 2em 0;
+   line-height: 67px;
+   margin: 1em 1em 0;
    padding: 0 5em;
    position: relative;
    text-transform: uppercase;
@@ -6278,7 +6278,7 @@ ul.service-list li:last-of-type a {
    background-color: #272b4d;
    border-radius: 20px;
    display: block;
-   font-size: 10px;
+   font-size: 9px;
    left: 20%;
    line-height: 40px;
    margin: 0 1em;
@@ -6328,6 +6328,12 @@ ul.service-list li:last-of-type a {
       height: 48px;
       width: 48px;
    }
+   @media only screen and (max-width: 768px) {
+      #i-form .step-back {
+          height: 48px;
+          width: 48px;
+      }
+  }
    #i-form .progress-bar svg:nth-of-type(2) path {
       transform: translateX(-1px);
       -moz-transform: translateX(-1px);
@@ -8008,6 +8014,25 @@ ul.service-list li:last-of-type a {
    .article-height-300px {
       height: 200px !important;
    }
+
+   
+#i-form .select-btns a,
+#i-form .select-btns button {
+   background-color: transparent;
+   border: none;
+   border-radius: 40em;
+   color: #eeeef2;
+   cursor: pointer;
+   font-family: TT Lakes Neue, Impact, sans-serif;
+   font-size: 9px;
+   font-weight: 400;
+   line-height: 67px;
+   margin: 2em 2em 0;
+   padding: 0 5em;
+   position: relative;
+   text-transform: uppercase;
+   z-index: 2;
+}
 }
 
 .para-width-100 {
@@ -8108,4 +8133,36 @@ ul.service-list li:last-of-type a {
 .font-size-100px{
    line-height: 0;
 }
+
+
+
+   
+#i-form .select-btns a,
+#i-form .select-btns button {
+   background-color: transparent;
+   border: none;
+   border-radius: 40em;
+   color: #eeeef2;
+   cursor: pointer;
+   font-family: TT Lakes Neue, Impact, sans-serif;
+   font-size:11px;
+   font-weight: 400;
+   line-height: 67px;
+   margin: 2em 2em 0;
+   padding: 0 5em;
+   position: relative;
+   text-transform: uppercase;
+   z-index: 2;
+}
+}
+@media only screen and (max-width: 768px) {
+   #i-form .step-item-top{
+      top: 88%;
+   }
+ }
+ @media only screen and (max-width: 768px) {
+ .smooth-wrapper .content .contact{
+   overflow-y: scroll !important;
+   overflow: hidden !important;
+ }
 }
