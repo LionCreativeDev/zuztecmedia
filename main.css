@@ -6248,7 +6248,7 @@ ul.service-list li:last-of-type a {
    color: #eeeef2;
    cursor: pointer;
    font-family: TT Lakes Neue, Impact, sans-serif;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: 400;
    line-height: 67px;
    margin: 1em 1em 0;
@@ -8024,7 +8024,7 @@ ul.service-list li:last-of-type a {
    color: #eeeef2;
    cursor: pointer;
    font-family: TT Lakes Neue, Impact, sans-serif;
-   font-size: 9px;
+   font-size: 7px;
    font-weight: 400;
    line-height: 67px;
    margin: 2em 2em 0;
@@ -8032,6 +8032,10 @@ ul.service-list li:last-of-type a {
    position: relative;
    text-transform: uppercase;
    z-index: 2;
+}
+
+#i-form span.travel-btn {
+   font-size: 7px;
 }
 }
 
