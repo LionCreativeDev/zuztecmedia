@@ -8166,3 +8166,8 @@ ul.service-list li:last-of-type a {
    overflow: hidden !important;
  }
 }
+
+.maaz-social-title {
+   font-size: clamp(71px, 12.9vw, 20vw);
+   line-height: 1.1;
+}
