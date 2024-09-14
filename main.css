@@ -6330,10 +6330,10 @@ ul.service-list li:last-of-type a {
    }
    @media only screen and (max-width: 768px) {
       #i-form .step-back {
-         height: 48px;
-         width: 48px;
+          height: 48px;
+          width: 48px;
       }
-   }
+  }
    #i-form .progress-bar svg:nth-of-type(2) path {
       transform: translateX(-1px);
       -moz-transform: translateX(-1px);
@@ -8015,27 +8015,28 @@ ul.service-list li:last-of-type a {
       height: 200px !important;
    }
 
-   #i-form .select-btns a,
-   #i-form .select-btns button {
-      background-color: transparent;
-      border: none;
-      border-radius: 40em;
-      color: #eeeef2;
-      cursor: pointer;
-      font-family: TT Lakes Neue, Impact, sans-serif;
-      font-size: 7px;
-      font-weight: 400;
-      line-height: 67px;
-      margin: 2em 2em 0;
-      padding: 0 5em;
-      position: relative;
-      text-transform: uppercase;
-      z-index: 2;
-   }
+   
+#i-form .select-btns a,
+#i-form .select-btns button {
+   background-color: transparent;
+   border: none;
+   border-radius: 40em;
+   color: #eeeef2;
+   cursor: pointer;
+   font-family: TT Lakes Neue, Impact, sans-serif;
+   font-size: 7px;
+   font-weight: 400;
+   line-height: 67px;
+   margin: 2em 2em 0;
+   padding: 0 5em;
+   position: relative;
+   text-transform: uppercase;
+   z-index: 2;
+}
 
-   #i-form span.travel-btn {
-      font-size: 7px;
-   }
+#i-form span.travel-btn {
+   font-size: 7px;
+}
 }
 
 .para-width-100 {
@@ -8111,60 +8112,63 @@ ul.service-list li:last-of-type a {
 }
 
 @media only screen and (max-width: 768px) {
-   .margin-top-mobile-get {
+   .margin-top-mobile-get{
       margin-top: 50vh !important;
    }
 
    .get-started-p {
       font-size: 4.4vw;
-   }
+  }
 
-   .service-online-title {
-      width: 100%;
-   }
+  .service-online-title{
+   width: 100%;
+  }
 
-   .display-justify-online-repu {
-      display: flex;
-      justify-content: center;
-   }
+  .display-justify-online-repu {
+   display: flex;
+   justify-content: center;
+}
 
-   .online-repu-image-div {
-      height: 100%;
-      width: 80% !important;
-   }
+.online-repu-image-div {
+   height: 100%;
+   width: 80% !important;
+}
 
-   .font-size-100px {
-      line-height: 0;
-   }
+.font-size-100px{
+   line-height: 0;
+}
 
-   #i-form .select-btns a,
-   #i-form .select-btns button {
-      background-color: transparent;
-      border: none;
-      border-radius: 40em;
-      color: #eeeef2;
-      cursor: pointer;
-      font-family: TT Lakes Neue, Impact, sans-serif;
-      font-size: 11px;
-      font-weight: 400;
-      line-height: 67px;
-      margin: 2em 2em 0;
-      padding: 0 5em;
-      position: relative;
-      text-transform: uppercase;
-      z-index: 2;
-   }
+
+
+   
+#i-form .select-btns a,
+#i-form .select-btns button {
+   background-color: transparent;
+   border: none;
+   border-radius: 40em;
+   color: #eeeef2;
+   cursor: pointer;
+   font-family: TT Lakes Neue, Impact, sans-serif;
+   font-size:11px;
+   font-weight: 400;
+   line-height: 67px;
+   margin: 2em 2em 0;
+   padding: 0 5em;
+   position: relative;
+   text-transform: uppercase;
+   z-index: 2;
+}
 }
 @media only screen and (max-width: 768px) {
-   #i-form .step-item-top {
+   #i-form .step-item-top{
       top: 88%;
    }
-}
-@media only screen and (max-width: 768px) {
-   .smooth-wrapper .content .contact {
-      overflow-y: scroll !important;
-      overflow: hidden !important;
-   }
+ }
+ @media only screen and (max-width: 768px) {
+ .smooth-wrapper .content .contact{
+   overflow-y: scroll !important;
+   overflow: hidden !important;
+ }
 }
 
 .maaz-social-title {
@@ -8174,10 +8178,10 @@ ul.service-list li:last-of-type a {
 
 @media only screen and (max-width: 767px) {
    .timeline .timeline-side .num-item {
-      font-size: 20vmin;
-      margin-left: 35.9992vw;
-      background: #1d214599;
-      padding-right: 50px;
+       font-size: 20vmin;
+       margin-left: 35.9992vw;
+       background: #1d214599;
+       padding-right: 50px;
    }
 }
 
@@ -8190,22 +8194,22 @@ ul.service-list li:last-of-type a {
 
    #i-form span.travel-btn {
       top: 33%;
-   }
+  }
 
-   #i-form .choice-selected {
-      top: 2.1666vw;
-   }
+  #i-form .choice-selected {
+   top: 2.1666vw;
+}
 }
 
 @media only screen and (max-width: 768px) {
    #i-form .step-item-top {
-      top: 65% !important;
+       top: 65% !important;
    }
 
    #i-form .step-item {
       top: 60%;
-   }
-   #i-form .progress {
+  }
+  #i-form .progress {
       bottom: -4.8334vw;
-   }
+  }
 }
