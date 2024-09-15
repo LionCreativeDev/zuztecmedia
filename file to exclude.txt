@@ -1,0 +1,3 @@
+**/about.html, **/index.html, **/portfolio.html, **/services.html,
+
+**/services, **/uxui, **/webdevelopment, **/social, **/branding
