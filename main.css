@@ -8235,15 +8235,3 @@ ul.service-list li:last-of-type a {
      opacity: 1;
  }
 }
-#pdf-zoom-in{
-   
-}
-#pdf-zoom-percent{
-   display: inline-block;
-}
-#pdf-zoom-percent::after{
-   content: "%";
-}
-#pdf-zoom-out{
-   
-}
