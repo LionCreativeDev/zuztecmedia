@@ -1,7 +1,7 @@
 (() => {
 
 
-    const e = window.ASSETS.concat([`img/work/brand north.jpg`])
+    const e = window.ASSETS.concat([`img/work/brand-north.webp`])
         , t = window.document.querySelector("#webglBubble");
     if (MainThreeScene.init(t),
         MainThreeScene.initTextures(e),

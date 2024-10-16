@@ -5,12 +5,12 @@ var branding = document.querySelector(".branding-hover-assets");
 
 // Define the data for UX/UI
 const uxuiAssets = [
-    'img/Portfolio-Page-img/AI-Influencer.png',
-    'img/Portfolio-Page-img/HomePage-1-NFT-Nexo.png',
-    'img/Portfolio-Page-img/XSport-Sneacker.png',
-    'img/Portfolio-Page-img/Sarrbet-Home.png',
-    'img/Portfolio-Page-img/Yoh-Sweet.png',
-    'img/Portfolio-Page-img/Seo-Landing-Page.png',
+    'img/Portfolio-Page-img/AI-Influencer.webp',
+    'img/Portfolio-Page-img/HomePage-1-NFT-Nexo.webp',
+    'img/Portfolio-Page-img/XSport-Sneacker.webp',
+    'img/Portfolio-Page-img/Sarrbet-Home.webp',
+    'img/Portfolio-Page-img/Yoh-Sweet.webp',
+    'img/Portfolio-Page-img/Seo-Landing-Page.webp',
 ];
 
 const uxuiSlideTitle = [
@@ -33,12 +33,12 @@ const uxuiSlideService = [
 
 // Define the data for Web Development
 const webDevelopmentAssets = [
-    'img/Portfolio-Page-img/modelcitizenfl-min.png',
-    'img/Portfolio-Page-img/irishealing-min.png',
-    'img/Portfolio-Page-img/brandnorth-min.png',
-    'img/Portfolio-Page-img/maazproperties-min.png',
-    'img/Portfolio-Page-img/opioid-rehab-min.png',
-    'img/Portfolio-Page-img/ylangylangbeachresort-min.png',
+    'img/Portfolio-Page-img/modelcitizenfl-min.webp',
+    'img/Portfolio-Page-img/irishealing-min-2.webp',
+    'img/Portfolio-Page-img/brandnorth-min.webp',
+    'img/Portfolio-Page-img/maazproperties-min.webp',
+    'img/Portfolio-Page-img/opioid-rehab-min.webp',
+    'img/Portfolio-Page-img/ylangylangbeachresort-min.webp',
 ];
 
 const webDevelopmentSlideTitle = [
@@ -61,9 +61,9 @@ const webDevelopmentSlideService = [
 
 // Define the data for Branding
 const brandingAssets = [
-    'img/Portfolio-Page-img/DMotel-min.jpg',
-    'img/Portfolio-Page-img/IrisHealing-min.jpg',
-    'img/Portfolio-Page-img/beehealth-min.jpg',
+    'img/Portfolio-Page-img/DMotel-min.webp',
+    'img/Portfolio-Page-img/irishealing-min.webp',
+    'img/Portfolio-Page-img/beehealth-min.webp',
 ];
 
 const brandingSlideTitle = [

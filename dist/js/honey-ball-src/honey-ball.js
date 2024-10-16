@@ -26,7 +26,7 @@ class HoneyBallClass {
         value: BubblesFBO.FBO.depthTexture
       },
       u_matCap: {
-        value: this.texLoader.load("../../../img/assets/matcap05.png")
+        value: this.texLoader.load("../../img/assets/matcap05.webp")
       },
       u_curRefrTex: {
         value: null

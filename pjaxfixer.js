@@ -3,12 +3,12 @@
     function VariableInjector(url) {
         if (url.includes("uxui.html")) {
             window.ASSETS = [
-                'img/Portfolio-Page-img/AI-Influencer.png',
-                'img/Portfolio-Page-img/HomePage-1-NFT-Nexo.png',
-                'img/Portfolio-Page-img/XSport-Sneacker.png',
-                'img/Portfolio-Page-img/Sarrbet-Home.png',
-                'img/Portfolio-Page-img/Yoh-Sweet.png',
-                'img/Portfolio-Page-img/Seo-Landing-Page.png',
+                'img/Portfolio-Page-img/AI-Influencer.webp',
+                'img/Portfolio-Page-img/HomePage-1-NFT-Nexo.webp',
+                'img/Portfolio-Page-img/XSport-Sneacker.webp',
+                'img/Portfolio-Page-img/Sarrbet-Home.webp',
+                'img/Portfolio-Page-img/Yoh-Sweet.webp',
+                'img/Portfolio-Page-img/Seo-Landing-Page.webp',
             ]
 
             window.SLIDETITLE = [
@@ -31,12 +31,12 @@
         }
         else if (url.includes("webdevelopment.html")) {
             window.ASSETS = [
-                'img/Portfolio-Page-img/modelcitizenfl-min.png',
-                'img/Portfolio-Page-img/irishealing-min.png',
-                'img/Portfolio-Page-img/brandnorth-min.png',
-                'img/Portfolio-Page-img/maazproperties-min.png',
-                'img/Portfolio-Page-img/opioid-rehab-min.png',
-                'img/Portfolio-Page-img/ylangylangbeachresort-min.png',
+                'img/Portfolio-Page-img/modelcitizenfl-min.webp',
+                'img/Portfolio-Page-img/irishealing-min-2.webp',
+                'img/Portfolio-Page-img/brandnorth-min.webp',
+                'img/Portfolio-Page-img/maazproperties-min.webp',
+                'img/Portfolio-Page-img/opioid-rehab-min.webp',
+                'img/Portfolio-Page-img/ylangylangbeachresort-min.webp',
             ]
 
             window.SLIDETITLE = [
@@ -59,9 +59,9 @@
         }
         else if (url.includes("branding.html")) {
             window.ASSETS = [
-                'img/Portfolio-Page-img/DMotel-min.jpg',
-                'img/Portfolio-Page-img/IrisHealing-min.jpg',
-                'img/Portfolio-Page-img/beehealth-min.jpg',
+                'img/Portfolio-Page-img/DMotel-min.webp',
+                'img/Portfolio-Page-img/irishealing-min.webp',
+                'img/Portfolio-Page-img/beehealth-min.webp',
             ]
 
             window.SLIDETITLE = [
@@ -78,11 +78,11 @@
         }
         else if (url.includes("work.html")) {
             window.ASSETS = [
-                'img/work/moderncitizen.jpg',
-                'img/work/ylangylang.jpg',
-                'img/work/Iris Healing.jpg',
-                'img/work/brand north.jpg',
-                'img/work/maazproperies.jpg',
+                'img/work/moderncitizen.webp',
+                'img/work/ylangylang.webp',
+                'img/work/Iris-Healing.webp',
+                'img/work/brand-north.webp',
+                'img/work/maazproperies.webp',
             ]
 
             window.SLIDETITLE = [
@@ -107,11 +107,11 @@
         }
         else {
             window.ASSETS = [
-                'img/work/moderncitizen.jpg',
-                'img/work/ylangylang.jpg',
-                'img/work/Iris Healing.jpg',
-                'img/work/brand north.jpg',
-                'img/work/maazproperies.jpg',
+                'img/work/moderncitizen.webp',
+                'img/work/ylangylang.webp',
+                'img/work/Iris-Healing.webp',
+                'img/work/brand-north.webp',
+                'img/work/maazproperies.webp',
             ]
 
             window.SLIDETITLE = [
