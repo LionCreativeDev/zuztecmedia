@@ -1343,7 +1343,7 @@ input:-webkit-autofill:hover {
 #loading-overlay {
    align-items: center;
    background-color: #1d2145;
-   background-image: url(img/bg.jpg);
+   /* background-image: url(img/bg.jpg); */
    background-size: contain !important;
    display: block;
    display: flex;
